@@ -1,5 +1,5 @@
 //npm install
 
-//insert your database
+//insert your database in config/db
 
 //npm start
