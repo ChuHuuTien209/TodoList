@@ -1,0 +1,46 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-errors": "^1.8.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  },
+  "scripts": {
+    "startdev": "node ./src/index.js || nodemon --inspect ./src/index.js",
+    "start": "node index.js",
+    "watch": "sass --watch src/resources/scss/404.scss src/public/css/404.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "node"
+  ],
+  "author": "chutien",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChuHuuTien/ToDoList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChuHuuTien/ToDoList/issues"
+  },
+  "homepage": "https://github.com/ChuHuuTien/ToDoList#readme",
+  "description": ""
+}
