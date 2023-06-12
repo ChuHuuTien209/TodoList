@@ -1,7 +1,7 @@
 const {mongoose,MongoClient } = require('mongoose');
 
-const username = 'tien2092001';
-const password = 'xlAst6lqrnNSvDOs';
+const username = 'Your username';
+const password = 'Your password';
 const URL = `mongodb+srv://${username}:${password}@todolist.ylcbtkc.mongodb.net/todolist`;
 const local = 'mongodb://localhost:27017';
 
